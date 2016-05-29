@@ -54,5 +54,5 @@ map <C-n> :NERDTreeToggle<CR>
 set laststatus=2
 let g:airline_powerline_fonts = 1
 let g:airline_theme='hybridline'
-autocmd BufWritePost *.py call Flake8()
+"autocmd BufWritePost *.py call Flake8()
 filetype plugin on
