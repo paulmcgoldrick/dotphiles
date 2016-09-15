@@ -145,3 +145,5 @@
 [user]
 	name = Paul McGoldrick
 	email = paul.mcgoldrick@att.com
+[credential]
+	helper = store
