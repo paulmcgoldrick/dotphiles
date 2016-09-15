@@ -61,7 +61,7 @@ ssh
 #subversion
 #task/task
 #task/taskrc
-#tmux/tmux.conf
+tmux/tmux.conf
 #tmux/tmuxinator
 vim/dotvim:.vim
 vim/vimrc
@@ -88,6 +88,6 @@ vim/vimrc
 #host7.example.net               rsync=host2.example.com                                #rsync mirror, push from host2
 #host8.example.net               rsync=host2.example.com                                #rsync mirror, push from host2
 #host9.example.net               rsync=host2.example.com                                #rsync mirror, push from host2
-Pauls-Mac-Pro.local              git=ANY
+Paul's             git=ANY
 [endhosts]
 
