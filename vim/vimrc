@@ -9,7 +9,7 @@
 
 " Call dotvim
 source ~/.vim/dotvim.vim
-
+set clipboard=unnamed
 if has("user_commands")
   set nocompatible
   filetype off
