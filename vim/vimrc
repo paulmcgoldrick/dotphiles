@@ -8,8 +8,10 @@
 "
 
 " Call dotvim
+execute pathogen#infect()
 source ~/.vim/dotvim.vim
-set clipboard=unnamed
+"let base16colorspace=256  " Access colors present in 256 colorspace
+set clipboard=unnamedplus
 if has("user_commands")
   set nocompatible
   filetype off
@@ -27,13 +29,12 @@ endif
 " Customize to your needs...
 au BufRead,BufNewFile *.py set expandtab
 let g:flake8_show_in_gutter = 1
-colorscheme elflord " awesome colorscheme
 syntax enable           " enable syntax processing
 set tabstop=4       " number of visual spaces per TAB
 set softtabstop=4   " number of spaces in tab when editing
 set expandtab       " tabs are spaces
 set number              " show line numbers
-set showcmd             " show command in bottom bar
+set showcmd             " show command in bottom ba
 set cursorline          " highlight current line
 filetype indent on      " load filetype-specific indent files
 set wildmenu            " visual autocomplete for command menu
@@ -54,5 +55,6 @@ map <C-n> :NERDTreeToggle<CR>
 set laststatus=2
 let g:airline_powerline_fonts = 1
 let g:airline_theme='hybridline'
+let g:dotvim_colorscheme='elflord'
 "autocmd BufWritePost *.py call Flake8()
 filetype plugin on

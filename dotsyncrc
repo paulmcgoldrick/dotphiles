@@ -62,7 +62,7 @@ ssh
 #task/task
 #task/taskrc
 tmux/tmux.conf
-#tmux/tmuxinator
+tmux/tmuxinator
 vim/dotvim:.vim
 vim/vimrc
 #vim/gvimrc
@@ -90,5 +90,6 @@ vim/vimrc
 #host9.example.net               rsync=host2.example.com                                #rsync mirror, push from host2
 Pauls-Mac-Pro           git=ANY
 galadriel               git=ANY
+Sauron			git=ANY
 [endhosts]
 

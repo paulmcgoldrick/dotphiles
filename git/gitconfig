@@ -144,6 +144,6 @@
 
 [user]
 	name = Paul McGoldrick
-	email = paul.mcgoldrick@att.com
+	email = pmcgoldrick@cloudera.com
 [credential]
 	helper = store
